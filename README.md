@@ -1,55 +1,39 @@
-# Trading platform · product case study
+01 / FLAGSHIP
 
-From spreadsheet workflows to a connected decision-support platform.
+# From workflow prototype to connected platform
 
 **Justin Joseph · Product Manager — FinTech, Trading Platforms & Decision Systems**
 
-[Read the detailed case study](docs/portfolio.md) · [Explore the flagship](https://github.com/justin5128/trade-platform-case-study)
+The product challenge is continuity: an alert enters, data arrives, background work completes, and the user needs a coherent place to review progress and outcomes.
 
-![Trading platform · product case study conceptual overview](assets/overview.svg)
+![Conceptual overview](assets/overview.svg)
 
-## Product problem
+## Read the case
 
-Operational work was spread across alerts, market-data retrieval, analysis, review and record keeping. A user could complete an action in one place while another view still showed an earlier state.
+| Document | What it demonstrates |
+| --- | --- |
+| **[Product journey](docs/portfolio.md)** | Problem, boundaries and the evolution of the platform |
+| **[Complete project index](docs/project-index.md)** | Coverage across platform, data, UX, AI and operational work |
+| **[Delivery approach](docs/delivery-playbook.md)** | A concrete scope decision, failure scenarios and measurement plan |
 
-## Objective and users
+## Product scope
 
-Make the journey from incoming opportunity to recorded workflow outcome understandable and traceable.
+Spreadsheet applications → automated workflows → browser decision portal → reliability iteration → proposed service evolution.
 
-**Users:** Analysts reviewing opportunities and operators maintaining the workflow.
+## My contribution
 
-## Constraints
+My work spans product framing, workflow design, technical requirements, architecture choices, AI-assisted implementation and hands-on iteration. The key design principle is continuity: keep item identity, data state and workflow outcomes coherent across components.
 
-Spreadsheet-backed state, asynchronous work, API dependencies, changing selections and a growing interface.
+## Evidence and maturity
 
-## Architecture and decisions
+Implementation artifacts and recorded iteration support the platform story. Mobile concepts, streaming and service migrations carry separate design or proposal status.
 
-The platform separates ingestion, market data, an opaque Proprietary Analysis Layer, decision support, workflow controls and downstream execution support. The public diagram is a conceptual boundary map, not a deployment map.
+The portfolio documents product work and reasoning. It does not claim quantified adoption, commercial impact or trading performance.
 
-I used Sheets and Apps Script as the initial product environment, then developed a browser-based decision portal through AI-assisted implementation and iterative testing. The next architectural step is clearer service ownership, not a wholesale rewrite.
-
-## Evolution and evidence
-
-Local project artifacts document alert processing, price acquisition, chart interfaces, AI review orchestration, logging and regression work. Mobile mockups demonstrate design exploration. Dedicated services and streaming remain architectural directions.
-
-This documentation was written for the portfolio in September 2026. It describes product work and design reasoning; it does not claim independently verified adoption, returns or performance improvements.
-
-## My role and learning
-
-My contribution spans product requirements, workflow design, architecture decisions, hands-on diagnosis, AI-assisted development and iteration. AI-assisted implementation is part of the process; this is not a claim that I independently hand-coded every component.
-
-A visible status is a product contract. An accepted request, completed background task and downstream outcome need distinct meanings.
-
-## Explore
-
-- [Detailed documentation](docs/portfolio.md)
-- [Portfolio profile](https://github.com/justin5128)
-- [Disclosure boundary](SECURITY.md)
-
-## Intentionally excluded
-
-This repository is a sanitised product and architecture case study. Production source code, credentials, proprietary analytical methods, operational configurations and confidential business logic are intentionally excluded.
+[Portfolio profile](https://github.com/justin5128) · [All project workstreams](https://github.com/justin5128/trade-platform-case-study/blob/main/docs/project-index.md) · [Disclosure boundary](SECURITY.md)
 
 ---
+
+This repository is a sanitised product and architecture case study. Production source code, credentials, proprietary analytical methods, operational configurations and confidential business logic are intentionally excluded.
 
 © Justin Joseph. Portfolio documentation. Production implementation and proprietary methods are not included.
