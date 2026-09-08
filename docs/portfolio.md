@@ -55,27 +55,9 @@ These stages describe a progression of concerns, not a dated release history. An
 
 ## Project map
 
-The portfolio groups related development work into six strong repositories instead of publishing one repository per script or workbook.
+The [complete project index](project-index.md) groups the identified work into platform and experience, data and research, and AI and operations. Each entry links to its public case and states the supporting evidence level.
 
-| Workstream | Evidence level | Public home |
-| --- | --- | --- |
-| Trading-application prototypes | Spreadsheet artifacts | This case study |
-| Alert ingestion and processing | Receiver and local workflow artifacts | [Specifications](https://github.com/justin5128/product-specifications) |
-| Historical-data exploration using Google Finance | Workbook artifacts | [Market data](https://github.com/justin5128/market-data-platform) |
-| Broker-data backtesting | Workbook artifacts | [Market data](https://github.com/justin5128/market-data-platform) |
-| Backtesting workspace variants | Workbook artifacts; analytical detail excluded | [Specifications](https://github.com/justin5128/product-specifications) |
-| Market-data refresh and scheduling | Local service artifacts | [Market data](https://github.com/justin5128/market-data-platform) |
-| Market screening and open-interest exploration | Template and service artifacts | [Market data](https://github.com/justin5128/market-data-platform) |
-| Broker connectivity and booking support | Integration/workflow artifacts; deployment not independently validated | [Execution architecture](https://github.com/justin5128/broker-execution-architecture) |
-| Decision portal and chart experience | Local interface artifacts | [Product UX](https://github.com/justin5128/trading-product-ux) |
-| Mobile and analyst-input exploration | Local mockups | [Product UX](https://github.com/justin5128/trading-product-ux) |
-| AI review orchestration | Local orchestration artifacts | [Specifications](https://github.com/justin5128/product-specifications) |
-| Trade logging and lifecycle visibility | Local logging artifacts | [Specifications](https://github.com/justin5128/product-specifications) |
-| Backup management | Management and backup artifacts; recovery not independently tested | [Architecture decisions](https://github.com/justin5128/product-architecture-decisions) |
-| Content automation | Configuration and generated-content artifacts; publishing outcomes not verified | [Specifications](https://github.com/justin5128/product-specifications) |
-| Local-AI exploration | Project-level exploration; deployment unverified | [Specifications](https://github.com/justin5128/product-specifications) |
-
-Private analytical work is represented only by the Proprietary Analysis Layer. Individual internal project names and taxonomies are deliberately not reproduced.
+The [delivery approach](delivery-playbook.md) connects one concrete workflow problem to prioritization, a scope decision, engineering collaboration and validation.
 
 ## What I own
 
